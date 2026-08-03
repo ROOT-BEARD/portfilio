@@ -1,12 +1,11 @@
-import PageHeader from '../components/layout/PageHeader.jsx'
 import './Home.css';
-import tempBack from '../assets/4k-desktop-wallpaper-v0-c3uhsgo1vx541.webp'
 
 export default function Home() {
     return (
-        <div>
-            <PageHeader />
-            <img className='HomePageImg' src={tempBack} alt="Temp background image" draggable={false} />
+        <div className='HomePage'>
+            <div className='Hero'>
+                <h1> Hello, my name is Alden Wyatt </h1>
+            </div>
         </div>
     );
 }

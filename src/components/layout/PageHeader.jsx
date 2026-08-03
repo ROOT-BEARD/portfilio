@@ -3,10 +3,11 @@ import './PageHeader.css';
 
 function Header() {
     return (
-        <div style={{display: 'flex',justifyContent: 'center'}}>
+        <div>
             <header className="PageHeader">
-                Alden Wyatt Portfolio
-            </header >
+                <h1>AW | </h1>
+                <div>ABOUT</div>
+            </header>
         </div>
     );
 }

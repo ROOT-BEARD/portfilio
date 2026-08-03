@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html,
+body,
+#root {
+    width: 100%;
+    min-height: 100vh;
+    /* Ensure the root page doesn't inject a white canvas */
+    background-color: transparent;
+}

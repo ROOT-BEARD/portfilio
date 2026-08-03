@@ -1,5 +1,9 @@
-.HomePageImg {
+.HomePage {
+    background-color:rgb(9, 84, 92);
     width: 100%;
-    display: block;
-    height: auto;
+    min-height: 700px;
+    box-sizing: border-box;
+}
+.Hero{
+    padding: 300px 0px 0px 25%;
 }
