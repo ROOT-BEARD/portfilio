@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Home from './pages/Home'
 import NewSec from './components/layout/NewSec.jsx'
 import PageHeader from './components/layout/PageHeader.jsx'
+import Card from './components/Card.jsx'
+import CardHolder from './components/CardHolder.jsx'
 import './App.css'
 
 function App() {
@@ -9,7 +11,18 @@ function App() {
     <div>
       <PageHeader />
       <Home />
-      <NewSec />
+      <NewSec
+        title="What's new"
+        descrip="What I have been up to"
+      >
+        <CardHolder>
+          <Card />
+          <Card />
+          <Card />
+        </CardHolder>
+      </NewSec>
+      <NewSec
+        backgroundColor='rgb(1,1,1)' />
     </div>
   );
 }
