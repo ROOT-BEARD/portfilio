@@ -1,4 +1,11 @@
 .Card {
+    /*This keeps the link acting and looking like a basic
+    block container*/
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+
     flex-shrink: 0;
     height: 450px;
     width: 400px;
@@ -8,9 +15,28 @@
     position: relative;
 }
 
+.Card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+.ImageHolder{
+    width: 100%;
+    min-height: 250px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
 .Image {
     width: 100%;
+    height: 100%;
     object-fit:cover;
-    border-radius: 25px;
     display: block;
+
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.Card:hover .Image{
+    transform: scale(1.08);
 }

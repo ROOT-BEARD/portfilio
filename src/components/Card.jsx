@@ -5,7 +5,9 @@ import temp from '../assets/placeHolderImg.webp';
 export default function Card({to, title, description}) {
     return (
         <Link to={to} className="Card">
-            <img src={temp} alt='placeHolderImg' className='Image'/>
+            <div className='ImageHolder'>
+                <img src={temp} alt='placeHolderImg' className='Image'/>
+            </div>
             <h1 style={{paddingLeft:'5%'}}>{title}</h1>
             <p style={{paddingLeft:'10%'}}>{description}</p>
             <h1 style={{padding:'100% 0px 0px 100%'}}>+</h1>
