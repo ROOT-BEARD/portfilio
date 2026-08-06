@@ -1,29 +1,20 @@
-import { useState } from 'react'
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Home from './pages/Home'
-import NewSec from './components/layout/NewSec.jsx'
 import PageHeader from './components/layout/PageHeader.jsx'
-import Card from './components/Card.jsx'
-import CardHolder from './components/CardHolder.jsx'
+import HallowerPage from './pages/projects/HallowerPage.jsx'
 import './App.css'
 
 function App() {
   return (
-    <div>
-      <PageHeader />
-      <Home />
-      <NewSec
-        title="What's new"
-        descrip="What I have been up to"
-      >
-        <CardHolder>
-          <Card />
-          <Card />
-          <Card />
-        </CardHolder>
-      </NewSec>
-      <NewSec
-        backgroundColor='rgb(1,1,1)' />
-    </div>
+    <BrowserRouter>
+      <div>
+        <PageHeader/>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/projects/hallower' element={<HallowerPage/>}/>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

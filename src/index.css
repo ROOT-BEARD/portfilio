@@ -8,7 +8,10 @@ html,
 body,
 #root {
     width: 100%;
+    max-width: 100%;
     min-height: 100vh;
+    overflow-x: hidden;
     /* Ensure the root page doesn't inject a white canvas */
     background-color: transparent;
+    
 }

@@ -1,7 +1,7 @@
 .BackDrop {
     background-color: rgb(15, 15, 15);
     width: 100%;
-    height: 1000px;
+    min-height: 1000px;
     flex-direction: column;
     box-sizing: border-box;
     border-top-right-radius: 75px;
@@ -9,4 +9,12 @@
     margin-top: -100px;
     color: beige;
     justify-content: center;
+    padding-bottom: 100px;
+}
+
+.SectionContainer{
+    padding: 100px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
 }
