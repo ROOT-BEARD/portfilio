@@ -5,10 +5,6 @@ import Card from '../components/Card.jsx'
 import CardHolder from '../components/CardHolder.jsx'
 import backgroundImage from '../assets/placeHolderImg.webp'
 
-function scrollToTop(){
-    window.scrollTo({top:0,behavior:'smooth'});
-}
-
 export default function Home() {
     return (
         <div>
@@ -23,13 +19,10 @@ export default function Home() {
             <CardHolder>
                 <Card title="Hallower"
                 description="A character controller inspried by the game
-                Mina the Hallower by Yhact Club games" to="/projects/hallower"/>
+                Mina the Hallower by Yhact Club games" to="/projects/hallower" onClick={() => window.scrollTo({top:0,behavior:'instant'})}/>
                 <Card />
                 <Card />
             </CardHolder>
-            </NewSec>
-            <NewSec backgroundColor='rgb(1,1,1)'>
-                <button onClick={() => scrollToTop()}>back to top</button>
             </NewSec>
         </div>
     );

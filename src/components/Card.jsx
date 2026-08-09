@@ -2,9 +2,9 @@ import './Card.css';
 import {Link} from 'react-router-dom';
 import temp from '../assets/placeHolderImg.webp';
 
-export default function Card({to, title, description}) {
+export default function Card({to, title, description, onClick}) {
     return (
-        <Link to={to} className="Card">
+        <Link to={to} className="Card" onClick={onClick}>
             <div className='ImageHolder'>
                 <img src={temp} alt='placeHolderImg' className='Image'/>
             </div>
