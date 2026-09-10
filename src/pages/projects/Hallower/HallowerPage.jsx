@@ -9,8 +9,8 @@ export default function HallowerPage(){
                 <div className="GameFrame">
                     <iframe
                     className="game"
-                    //src="https://games.voodoo.io/paperio2"
-                    title="placeholder snake game"
+                    src="https://games.voodoo.io/paperio2"
+                    title="placeholder game"
                     allow="autoplay; fullscreen"
                     />
                 </div>

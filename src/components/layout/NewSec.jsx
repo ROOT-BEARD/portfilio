@@ -1,5 +1,5 @@
 import './NewSec.css';
-import Card from '../Card.jsx';
+import Card from '../ProjectCard.jsx';
 
 export default function NewSec({ title, descrip, backgroundColor, children }) {
     return (
