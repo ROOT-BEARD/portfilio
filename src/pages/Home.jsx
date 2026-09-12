@@ -10,17 +10,18 @@ import { Card, Typography } from '@heroui/react';
 export default function Home() {
     return (
         <div>
-            <div className='h-screen flex flex-row items-center justify-center gap-12'>
-                <div className='h-full w-full overflow-hidden'>
-                    <img className='h-full' src={headShot} alt='portrait'/>
+            <section className="flex justify-end relative h-screen w-full bg-zinc-900 overflow-hidden -z-1">
+                <div className='absolute inset-y-0 left-0 w-1/2'>
+                    <img className='h-full w-full object-cover object-center' src={headShot} alt='portrait'/>
+                    <div className="absolute inset-0 bg-gradient-to-r from-transparent to-zinc-900" />
                 </div>
-                <Card className='max-w-200'>
+                <div className='pr-50 relative flex w-1/3 h-full justify-center items-center'>
                     <Typography type='body'>Hello, my name is Alden Wyatt, I am a computer science major at Central Washington University.
                         My coursework along with personal projects have given me a strong foundational knowledge of computer science in advanced data structures,
                         programming languages, and from taking a project from an idea to a deployed product
                     </Typography>
-                </Card>
-            </div>
+                </div>
+            </section>
             <NewSec
                 title="Projects"
                 descrip="what I have been up to"
