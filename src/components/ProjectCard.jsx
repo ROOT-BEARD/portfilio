@@ -13,18 +13,15 @@ export default function ProjectCard({github, title, description, photo, demo}) {
             <Typography type='h4' style={{paddingLeft:'5%'}}>{title}</Typography>
             <p style={{paddingLeft:'10%'}}>{description}</p>
             <div className='h-full flex justify-between items-end'>
-                <Link
-                    to={github}>
-                    <Button
-                    variant='tertiary'>
-                        <img src={githubIcon}
-                            className="w-4 h-4 object-contain"/>
+                <a href={github} target="_blank">
+                    <Button variant='tertiary'>
+                        <img src={githubIcon} className="w-4 h-4 object-contain"/>
                             GitHub
                     </Button>
-                </Link>
-                <Link to={demo}>
+                </a>
+                {demo?(<a href={demo} target="_blank">
                     <Button>Live Demo</Button>
-                </Link>
+                </a>):null}
             </div>
         </Card >
     );

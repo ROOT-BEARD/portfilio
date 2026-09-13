@@ -1,5 +1,4 @@
-import './NewSec.css';
-import Card from '../ProjectCard.jsx';
+import './NewSec.css'
 import { Typography } from '@heroui/react';
 
 export default function NewSec({ title, descrip, backgroundColor, children }) {

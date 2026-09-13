@@ -1,7 +1,6 @@
 .BackDrop {
     background-color: #09090b;
     width: 100%;
-    min-height: 1000px;
     flex-direction: column;
     box-sizing: border-box;
     border-top-right-radius: 75px;
