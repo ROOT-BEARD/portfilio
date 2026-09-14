@@ -9,28 +9,28 @@ export default function SkillSection({programmingSkills,generalSkills}:SkillSect
 
     const programmingSkillList = () => {
         return programmingSkills.map((key,index) => (
-            <Card className="bg-[#2F533E]" variant="tertiary" key={index}>
-                {key}
+            <Card className="bg-[#37B96D]" key={index}>
+                <Typography type="h6" className="text-black">{key}</Typography>
             </Card>
             ));
         }
 
     const generalSkillList = () => {
         return generalSkills.map((key,index) => (
-            <Card className="bg-[#2F533E]" variant="secondary" key={index}>
-                {key}
+            <Card className="bg-[#37B96D] text-black" key={index}>
+                <Typography type="h6" className="text-black">{key}</Typography>
             </Card>
             ));
         }
 
     return(
-        <div className="w-2/3 pt-10">
-            <Card className="w-full">
-                <Typography>Programming</Typography>
+        <div className="w-screen sm:w-auto pt-10">
+            <Card className="w-full px-10 py-10 gap-10">
+                <Typography type="h3">Programming</Typography>
                 <div className="flex flex-wrap gap-5">
                     {programmingSkillList()}
                 </div>
-                <Typography>General</Typography>
+                <Typography type="h3">General</Typography>
                 <div className="flex flex-wrap gap-5">
                     {generalSkillList()}
                 </div>
