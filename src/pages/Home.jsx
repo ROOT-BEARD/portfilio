@@ -9,7 +9,7 @@ import githubIcon from "../assets/githubIcon.png";
 import SkillSection from "../components/layout/SkillSection.jsx"
 import { Typography, Button } from '@heroui/react';
 import { FileText } from 'lucide-react';
-import headShot from '../assets/headShot.jpg';
+import headShot from '../assets/headshot.jpg';
 
 export default function Home() {
     return (
