@@ -23,7 +23,7 @@ export default function ProjectCard({github, title, description, photo, demo, ta
         };
 
     return (
-        <Card className="group h-[700px] w-[500px]">
+        <Card className="group h-[700px] sm:w-[500px] w-screen">
             <div className='h-2/5 w-full overflow-hidden rounded-[25px]'>
                 <img src={photo} alt='Project Image' className='block h-full w-full object-cover transition-all duration-300 ease-out group-hover:scale-[1.08]'/>
             </div>
