@@ -9,7 +9,7 @@ export default function SkillSection({programmingSkills,generalSkills}:SkillSect
 
     const programmingSkillList = () => {
         return programmingSkills.map((key,index) => (
-            <Card variant="secondary" key={index}>
+            <Card className="bg-[#2F533E]" variant="tertiary" key={index}>
                 {key}
             </Card>
             ));
@@ -17,14 +17,14 @@ export default function SkillSection({programmingSkills,generalSkills}:SkillSect
 
     const generalSkillList = () => {
         return generalSkills.map((key,index) => (
-            <Card variant="secondary" key={index}>
+            <Card className="bg-[#2F533E]" variant="secondary" key={index}>
                 {key}
             </Card>
             ));
         }
 
     return(
-        <div className="w-full pt-10">
+        <div className="w-2/3 pt-10">
             <Card className="w-full">
                 <Typography>Programming</Typography>
                 <div className="flex flex-wrap gap-5">

@@ -1,4 +1,4 @@
-import { Button } from "@heroui/react";
+import { Button, Typography } from "@heroui/react";
 import { MoveUp } from "lucide-react";
 import NewSec from "./NewSec";
 
@@ -13,6 +13,7 @@ export default function Footer(){
                 <a href="mailto:aawyatt04@gmail.com">
                     aawyatt04@gmail.com
                 </a>
+                {/*<Typography>(509)424-1851</Typography>*/}
             </div>
         </NewSec>  
     );
