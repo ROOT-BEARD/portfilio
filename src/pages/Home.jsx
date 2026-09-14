@@ -1,7 +1,6 @@
 import NewSec from '../components/layout/NewSec.jsx'
 import ProjectCard from '../components/ProjectCard.jsx'
 import CardHolder from '../components/CardHolder.jsx'
-import headShot from '../assets/headShot.png'
 import hallowerImg from '../assets/projects/hallower.png'
 import drunkardsImg from '../assets/projects/drunkardsWalk.png'
 import workoutTrackerImg from '../assets/projects/workoutTracker.png'
@@ -10,14 +9,13 @@ import githubIcon from "../assets/githubIcon.png";
 import SkillSection from "../components/layout/SkillSection.jsx"
 import { Typography, Button } from '@heroui/react';
 import { FileText } from 'lucide-react'
-import resume from "../resumeTemp.pdf"
 
 export default function Home() {
     return (
         <div>
             <section className="flex justify-end relative h-[75vh] w-full bg-zinc-900 overflow-hidden -z-1">
                 <div className='absolute inset-y-0 left-0 w-3/5'>
-                    <img className='h-full w-full object-cover object-center' src={headShot} alt='portrait'/>
+                    <img className='h-full w-full object-cover object-center' src="/headShot.png" alt='portrait'/>
                     <div className="absolute inset-0 bg-gradient-to-r from-transparent from-70% via-zinc-900/40 via-85% to-zinc-900 to-100%"/> 
                 </div>
                 <div className='pr-50 relative z-10 flex w-1/3 h-full justify-center items-center flex-col'>
@@ -42,7 +40,7 @@ export default function Home() {
                             GitHub
                     </Button>
                 </a>
-                <a href={resume} target='_blank'>
+                <a href="/resume.pdf" target='_blank'>
                     <Button
                         size="lg"
                         variant='tertiary'>
