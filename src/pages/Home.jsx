@@ -87,16 +87,19 @@ export default function Home() {
             </CardHolder>
             <Typography type='h1'>Skills</Typography>
             <SkillSection
-            programmingSkills={
-                ["Java","JavaScript","TypeScripts"," C ","C++",
-                    "SQL", "Python", "Data Structures & Algorithms",
-                    "Object-Oriented Design", "Debugging", "Git", "GitHub",
-                    "React", "Supabase"
+            languages={
+                ["Java","JavaScript","TypeScript"," C ","C++",
+                    "SQL", "Python"
                 ]
             }
-            generalSkills={["Team Player", "Fast Learner", "Flexable", "Dependable",
-                "Time Managment"
-            ]}>
+            concepts={["Data Structures & Algorithms",
+                    "Object-Oriented Design", "Debugging"
+            ]}
+            softSkills={["Team Player", "Fast Learner", "Adaptable & Flexible", "Dependable",
+                "Time Management"
+            ]}
+            technologies={["Git", "GitHub",
+                    "React", "Supabase"]}>
             </SkillSection>
             </NewSec>
         </div>
