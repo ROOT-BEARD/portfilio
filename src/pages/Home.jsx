@@ -88,7 +88,7 @@ export default function Home() {
             <Typography type='h1'>Skills</Typography>
             <SkillSection
             languages={
-                ["Java","JavaScript","TypeScript"," C ","C++",
+                ["Java","JavaScript","TypeScript","C++",
                     "SQL", "Python"
                 ]
             }
