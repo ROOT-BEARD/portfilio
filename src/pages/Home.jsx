@@ -77,7 +77,7 @@ export default function Home() {
                 github="https://github.com/ROOT-BEARD/HALLOWER"
                 photo={hallowerImg}
                 tags={["C++","Raylib"]}/>
-                <ProjectCard title="Drunkards Walk"
+                <ProjectCard title="Drunkard's Walk"
                 description="	A procedural level generation algorithm which produces an interconnected array of
                 integers to represent a level layout using a random-walk approach. It features configurable parameters
                 to fine-tune different layout results, paired with ASCII visualization of the final 2D grid."
