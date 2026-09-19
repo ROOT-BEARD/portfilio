@@ -69,7 +69,7 @@ export default function Home() {
                 github="https://github.com/ROOT-BEARD/couple"
                 demo="https://main.d2geb5vxokmiw8.amplifyapp.com"
                 photo={coupleImg}
-                tags={["TypeScript","React","TailWind","SQL","PostgreSQL","Supabase","AWS Amplify"]}/>
+                tags={["TypeScript","React","TailWind","SQL","Supabase","AWS Amplify"]}/>
                 <ProjectCard title="Hallower"
                 description="An 8-directional player controller prototype which manages custom collision logic and
                 a range of different player states, including simulated z-positioning allowing for aerial movement.
