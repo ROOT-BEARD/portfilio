@@ -92,11 +92,11 @@ export default function Home() {
                     "SQL", "Python"
                 ]
             }
-            concepts={["Data Structures & Algorithms",
-                    "Object-Oriented Design", "Debugging"
+            concepts={["Data Structures & Algorithms", "Software Architecture", "Relational Databases",
+                    "Object-Oriented Design", "Debugging", "Problem Decomposition"
             ]}
-            softSkills={["Team Player", "Fast Learner", "Adaptable & Flexible", "Dependable",
-                "Time Management"
+            softSkills={["Team Collaboration", "Fast Learner", "Adaptable & Flexible", "Dependable",
+                "Time Management", "Communication"
             ]}
             technologies={["Git", "GitHub",
                     "React", "Supabase"]}>
