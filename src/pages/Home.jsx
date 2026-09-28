@@ -65,7 +65,7 @@ export default function Home() {
                 <ProjectCard title="Couple"
                 description="	A real-time messaging app designed for paired users to exchange notes and images,
                 utilizing Supabase Realtime and its AWS S3-compatible buckets for low-latency image sending.
-                Paired with Row Level Security and PostgreSQL to ensure strict privacy of messages between users."
+                Paired with Row Level Security and SQL to ensure strict privacy of messages between users."
                 github="https://github.com/ROOT-BEARD/couple"
                 demo="https://main.d2geb5vxokmiw8.amplifyapp.com"
                 photo={coupleImg}
